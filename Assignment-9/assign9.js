@@ -30,7 +30,7 @@ const filterOddNumbers = arr => arr.filter(num => num % 2 !== 0);
 console.log(filterOddNumbers([1, 2, 3, 4, 5, 6])); 
 
 // 6. Object greeting
-const person = { name: "Bhargavi", age: 20, occupation: "Intern at Hashedbit Innovations " };
+const person = { name: "Dibyaranjan", age: 20, occupation: "Intern at Hashedbit Innovations " };
 const greetPerson = obj => console.log(`Hello, my name is ${obj.name}, I am ${obj.age} years old, and I work as a ${obj.occupation}.`);
 greetPerson(person);
 
