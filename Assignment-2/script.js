@@ -16,6 +16,8 @@ function calculate(a, b, operator) {
     }
 }
 
+console.log(calculate(3,4,'+'));
+
 //QUESTION-3
 
 function findTax(salary) {
@@ -26,6 +28,8 @@ function findTax(salary) {
         default: return 0;
     }
 }
+
+console.log(findTax(750000));
 
 //QUESTION-4
 
@@ -43,3 +47,5 @@ function sumOfProducts(n1, n2) {
 
     return sum;
 }
+
+console.log(sumOfProducts(1,2));
